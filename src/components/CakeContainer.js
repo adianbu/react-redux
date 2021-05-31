@@ -11,9 +11,10 @@ const CakeContainer = (props) => {
     )
 }
 
+//map state and dispacth so that it is dispatched to the store through connect
 const mapStateToProps= state =>{
     return {
-        numOfCakes: state.numOfCakes
+        numOfCakes: state.cake.numOfCakes //.cake refers to what key we have given in root reducer
     }
 }
 
