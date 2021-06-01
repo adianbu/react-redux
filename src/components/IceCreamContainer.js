@@ -6,7 +6,7 @@ const iceCreamContainer = (props) => {
     return (
         <div>
         <h1>IceCreams={props.numOfIceCreams}</h1>
-            <button onClick={props.buyIceCream}>Buy cake</button>
+            <button onClick={props.buyIceCream}>Buy IceCream</button>
         </div>
     )
 }
